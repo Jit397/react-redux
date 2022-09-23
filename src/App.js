@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import User from './User';
+import HomeContainer from './containers/HomeContainer';
 function App() {
   return (
-   <User  data={{name:'jitendra kumar',age:'27'}}/>
+    <div className='App'>
+       <HomeContainer />
+      
+   </div>
   );
 }
 
